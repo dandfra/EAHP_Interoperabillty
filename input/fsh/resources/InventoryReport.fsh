@@ -1,4 +1,3 @@
-Resource: InventoryReportCustom
 Parent: InventoryReport
 Profile: InventoryReportCustom
 Id: InventoryReportCustom

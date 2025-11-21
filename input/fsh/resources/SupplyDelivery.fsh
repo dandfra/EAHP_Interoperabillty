@@ -1,4 +1,3 @@
-Resource: SupplyDeliveryCustom
 Parent: SupplyDelivery
 Profile: SupplyDeliveryCustom
 Id: SupplyDeliveryCustom

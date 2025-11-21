@@ -1,4 +1,3 @@
-Resource: SupplyRequestCustom
 Parent: SupplyRequest
 Profile: SupplyRequestCustom
 Id: SupplyRequestCustom
