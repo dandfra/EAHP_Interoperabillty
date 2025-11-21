@@ -1,9 +1,10 @@
-canonical: http://hl7.org/fhir/us/daf
+canonical: "https://afriscic.github.io/EAHP_Interoperabillty/"
 fhirVersion: 5.0.0
 FSHOnly: true
 applyExtensionMetadataToRoot: false
-id: example
-name: DataAccessFrameworkDAF
+id: eahp-interoperability-ig
+name: EAHPInteroperabilityIG
 status: draft
-version: "0"
+version: "0.0.1"
+package-id: "org.eahp.interoperability"
 dependencies: {}
