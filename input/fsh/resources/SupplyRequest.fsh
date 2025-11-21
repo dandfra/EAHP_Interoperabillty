@@ -1,5 +1,5 @@
-Parent: SupplyRequest
 Profile: SupplyRequestCustom
+Parent: SupplyRequest
 Id: SupplyRequestCustom
 Description: "Custom profile of SupplyRequest for EAHP IG"
 * ^meta.lastUpdated = "2023-03-26T15:21:02.749+11:00"

@@ -1,5 +1,5 @@
-Parent: InventoryReport
 Profile: InventoryReportCustom
+Parent: InventoryReport
 Id: InventoryReportCustom
 Description: "Custom profile of InventoryReport for EAHP IG"
 * ^meta.lastUpdated = "2023-03-26T15:21:02.749+11:00"

@@ -1,5 +1,5 @@
-Parent: InventoryItem
 Profile: InventoryItemCustom
+Parent: InventoryItem
 Id: InventoryItemCustom
 Description: "Custom profile of InventoryItem for EAHP IG"
 * ^meta.lastUpdated = "2023-03-26T15:21:02.749+11:00"
