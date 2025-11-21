@@ -1,4 +1,4 @@
-Resource: InventoryItem
+Resource: InventoryItemCustom
 Parent: InventoryItem
 Profile: InventoryItemCustom
 Id: InventoryItemCustom
