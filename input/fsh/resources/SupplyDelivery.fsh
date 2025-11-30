@@ -6,7 +6,7 @@ Description: "SupplyDelivery profile for EAHP Interoperability SIG with Inventor
 * identifier MS
 * basedOn MS
 
-* suppliedItem.item[x] only only CodeableReference(InventoryItem)
+* suppliedItem.item[x] only CodeableReference(InventoryItem)
 
 * supplier MS
 * destination MS
