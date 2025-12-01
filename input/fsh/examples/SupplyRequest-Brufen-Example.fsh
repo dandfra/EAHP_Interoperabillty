@@ -6,5 +6,5 @@ Description: "Example of a supply request for Brufen tablets using the EAHP Inte
 * item.reference = Reference(05099151015051)
 * quantity.value = 2 //We need to define if we will always request in baseUnits
 * authoredOn = "2025-11-30T10:30:00Z"
-* requester = Reference(Device/ADC-Device) "Automated Dispensing Cabinet"
-* deliverTo = Reference(Location/Hospital-Pharmacy) "Hospital Pharmacy"
+* requester = Reference(Device/adc-device) "Automated Dispensing Cabinet"
+* deliverTo = Reference(Location/example-pharmacy) "Hospital Pharmacy"

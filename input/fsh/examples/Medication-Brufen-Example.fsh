@@ -1,4 +1,3 @@
-// Medication Instance
 Instance: 05099151015051 //Example with GTIN
 InstanceOf: Medication
 Title: "Brufen 30x600mg Tablets"
@@ -7,7 +6,8 @@ Description: "Medication resource representing Brufen tablets, 30 tablets of 600
 * doseForm.coding.system = "http://hl7.org/fhir/ValueSet/medication-form-codes"
 * doseForm.coding.code = #421026006
 * doseForm.coding.display = "Oral tablet"
-* ingredient[0].item.concept.text = "Ibuprofen"
+* ingredient[0].item.concept.coding.system = "http://snomed.info/sct"
+* ingredient[0].item.concept.coding.code = #38268001
 * ingredient[0].isActive = true
 * ingredient[0].strengthRatio.numerator.value = 600
 * ingredient[0].strengthRatio.numerator.unit = "mg"

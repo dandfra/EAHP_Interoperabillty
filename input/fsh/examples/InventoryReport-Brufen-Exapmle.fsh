@@ -1,7 +1,7 @@
 Instance: InventoryReport-Brufen-Example
 InstanceOf: InventoryReport
 Title: "Inventory Report for Brufen 600mg Tablets"
-Description: "InventoryReport documenting the current stock of Brufen 600mg tablets in the hospital pharmacy."
+Description: "InventoryReport documenting the current stock of Brufen 600mg tablets in the hospital pharmacy, both packs and unit doeses."
 
 * status = #active
 * countType = #snapshot
@@ -24,7 +24,7 @@ Description: "InventoryReport documenting the current stock of Brufen 600mg tabl
 * inventoryListing[0].item[1].item = Reference(e2d2688f-2854-48ac-a87a-cb6f4105b36c) "Brufen 30x600mg Pack - Lot 78241PC"
 
 * inventoryListing[0].item[2].quantity.value = 30
-* inventoryListing[0].item[0].quantity.system = "http://hl7.org/fhir/ValueSet/medication-form-codes"
+* inventoryListing[0].item[0].quantity.system = "http://snomed.info/sct"
 * inventoryListing[0].item[0].quantity.code = #421026006
 * inventoryListing[0].item[2].item = Reference(9042a2ba-724c-47e4-b64c-6054da9dd4fa) "Brufen 30x600mg Unit dose - Lot 78241PC"
 

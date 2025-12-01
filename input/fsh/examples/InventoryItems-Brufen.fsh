@@ -22,7 +22,7 @@ Description: "InventoryItem instance representing a pack of Brufen 30x600mg tabl
 
 Instance: 9042a2ba-724c-47e4-b64c-6054da9dd4fa
 InstanceOf: InventoryItemEAHPInteroperability
-Title: "Inventory Item for Brufen 30x600mg Unit dose"
+Title: "Inventory Item for Brufen 30x600mg Unit Dose"
 Description: "InventoryItem instance representing a unit dose of Brufen 30x600mg tablets."
 * status = #active
 * netContent.value = 1
