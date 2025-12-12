@@ -9,8 +9,3 @@ Description: "SupplyDelivery profile for EAHP Interoperability SIG."
 * suppliedItem.item[x] only Reference(InventoryItem)
 * supplier MS
 * destination MS
-* supplier ^type.targetProfile[+] = "http://hl7.org/fhir/StructureDefinition/Device"
-* supplier only Reference(Device)
-* receiver ^type.targetProfile[+] = "http://hl7.org/fhir/StructureDefinition/Device"
-* receiver only Reference(Device)
-
