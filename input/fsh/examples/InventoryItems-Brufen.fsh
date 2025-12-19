@@ -3,7 +3,9 @@ InstanceOf: InventoryItemEAHPInteroperability
 Title: "Inventory Item for Brufen 30x600mg Pack"
 Description: "InventoryItem instance representing a pack of Brufen 30x600mg tablets."
 * status = #active
-* netContent.value = 30
+* baseUnit.coding.code = #PACK 
+* baseUnit.coding.display = "Pack"
+* netContent.value = 1
 * instance.identifier.value = "1HXNA4G4VM"
 * instance.lotNumber = "78241PC"
 * instance.expiry = "2026-05-30"
@@ -14,6 +16,8 @@ InstanceOf: InventoryItemEAHPInteroperability
 Title: "Inventory Item for Brufen 30x600mg Pack"
 Description: "InventoryItem instance representing a pack of Brufen 30x600mg tablets."
 * status = #active
+* baseUnit.coding.code = #UNIT 
+* baseUnit.coding.display = "Unit"
 * netContent.value = 30
 * instance.identifier.value = "1HXP6FPMG1"
 * instance.lotNumber = "78241PC"
@@ -25,6 +29,8 @@ InstanceOf: InventoryItemEAHPInteroperability
 Title: "Inventory Item for Brufen 30x600mg Unit Dose"
 Description: "InventoryItem instance representing a unit dose of Brufen 30x600mg tablets."
 * status = #active
+* baseUnit.coding.code = #UNIT 
+* baseUnit.coding.display = "Unit"
 * netContent.value = 1
 * instance.identifier.value = "1HXRG3R6T3"
 * instance.lotNumber = "78241PC"
