@@ -6,7 +6,8 @@ Description: "InventoryItem instance representing a pack of Brufen 30x600mg tabl
 * baseUnit.coding.code = #PACK 
 * baseUnit.coding.display = "Pack"
 * netContent.value = 1
-* instance.identifier.value = "01050991510150511078241PC\u001D17260530211HXNA4G4VM"
+* instance.identifier[rawScan].value = "01050991510150511078241PC\u001D17260530211HXNA4G4VM"
+* instance.identifier[rawScan].type = EAHPIdentifierTypeCS#FMD_BARCODE
 * instance.lotNumber = "78241PC"
 * instance.expiry = "2026-05-30"
 * productReference = Reference(M00345)
@@ -19,7 +20,9 @@ Description: "InventoryItem instance representing a pack of Brufen 30x600mg tabl
 * baseUnit.coding.code = #UNIT 
 * baseUnit.coding.display = "Unit"
 * netContent.value = 30
-* instance.identifier.value = "1HXP6FPMG1"
+* instance.identifier[serialNumber].value = "1HXRG3R6T3"
+* instance.identifier[serialNumber].type = http://terminology.hl7.org/CodeSystem/v2-0203#SNO
+* instance.identifier[serialNumber].system = "https://www.gs1.org/gtin/05099151015051"
 * instance.lotNumber = "78241PC"
 * instance.expiry = "2026-05-30"
 * productReference = Reference(M00345)
@@ -32,7 +35,9 @@ Description: "InventoryItem instance representing a unit dose of Brufen 30x600mg
 * baseUnit.coding.code = #UNIT 
 * baseUnit.coding.display = "Unit"
 * netContent.value = 1
-* instance.identifier.value = "01050991510150511078241PC\u001D17260530211HXRG3R6T3"
+* instance.identifier[vendorAssigned].value = "0123456789"
+* instance.identifier[vendorAssigned].type = http://terminology.hl7.org/CodeSystem/v2-0203#RI
+* instance.identifier[vendorAssigned].system = "http://myhospital.org/unidoserobot-1/pick-ids"
 * instance.lotNumber = "78241PC"
 * instance.expiry = "2026-05-30"
 * productReference = Reference(M00345)
