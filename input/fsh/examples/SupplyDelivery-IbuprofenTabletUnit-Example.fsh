@@ -1,7 +1,7 @@
-Instance: SupplyDelivery-BrufenUnit-Example
+Instance: SupplyDelivery-IbuprofenTabletUnit-Example
 InstanceOf: SupplyDelivery
-Title: "Example Supply Delivery for Brufen Unit Dose Tablets"
-Description: "SupplyDelivery example corresponding to the SupplyRequest for Brufen unit dose tablets."
+Title: "Example Supply Delivery for Ibuprofen 500mg Unit Dose Tablets"
+Description: "SupplyDelivery example corresponding to the SupplyRequest for Ibuprofen 500mg unit dose tablets."
 
 * basedOn = Reference(SupplyRequest-Brufen-Example)
 * status = #completed

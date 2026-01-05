@@ -1,6 +1,6 @@
-Instance: InventoryReport-Brufen-Example
+Instance: InventoryReport-GlobalPharmaIbuprofen-Example
 InstanceOf: InventoryReport
-Title: "Inventory Report for Brufen 600mg Tablets"
+Title: "Inventory Report for GlobalPharma Ibuprofen 600mg Tablets"
 Description: "InventoryReport documenting the current stock of Brufen 600mg tablets in the hospital pharmacy, both packs and unit doeses."
 
 * status = #active

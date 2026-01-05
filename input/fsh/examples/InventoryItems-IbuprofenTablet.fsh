@@ -1,6 +1,6 @@
 Instance: 8d043738-bf48-4a2b-aba5-a4a9e8744f63
 InstanceOf: InventoryItemEAHPInteroperability
-Title: "Inventory Item for Brufen 30x600mg Pack"
+Title: "Inventory Item for GlobalPharma Ibuprofen 30x600mg Pack"
 Description: "InventoryItem instance representing a pack of Brufen 30x600mg tablets."
 * status = #active
 * baseUnit.coding.code = #PACK 
@@ -14,7 +14,7 @@ Description: "InventoryItem instance representing a pack of Brufen 30x600mg tabl
 
 Instance: e2d2688f-2854-48ac-a87a-cb6f4105b36c
 InstanceOf: InventoryItemEAHPInteroperability
-Title: "Inventory Item for Brufen 30x600mg Pack"
+Title: "Inventory Item for GlobalPharma Ibuprofen 30x600mg Pack"
 Description: "InventoryItem instance representing a pack of Brufen 30x600mg tablets."
 * status = #active
 * baseUnit.coding.code = #UNIT 
@@ -29,7 +29,7 @@ Description: "InventoryItem instance representing a pack of Brufen 30x600mg tabl
 
 Instance: 9042a2ba-724c-47e4-b64c-6054da9dd4fa
 InstanceOf: InventoryItemEAHPInteroperability
-Title: "Inventory Item for Brufen 30x600mg Unit Dose"
+Title: "Inventory Item for GlobalPharma Ibuprofen 30x600mg Unit Dose"
 Description: "InventoryItem instance representing a unit dose of Brufen 30x600mg tablets."
 * status = #active
 * baseUnit.coding.code = #UNIT 
