@@ -1,9 +1,9 @@
-Instance: SupplyDelivery-BrufenPack-Example
+Instance: SupplyDelivery-IbuprofenTabletPack-Example
 InstanceOf: SupplyDelivery
-Title: "Example Supply Delivery for Brufen Packs"
-Description: "SupplyDelivery example corresponding to the SupplyRequest for Brufen tablets. It contains two InventoryItem instances representing packs of Brufen 30x600mg tablets."
+Title: "Example Supply Delivery for Ibuprofen Tablet Packs"
+Description: "SupplyDelivery example corresponding to the SupplyRequest for IbuprofenTablet tablets. It contains two InventoryItem instances representing packs of Ibuprofen Tablet 30x600mg tablets."
 
-* basedOn = Reference(SupplyRequest-Brufen-Example)
+* basedOn = Reference(SupplyRequest-IbuprofenTablet-Example)
 * status = #completed
 * suppliedItem[0].itemReference = Reference(8d043738-bf48-4a2b-aba5-a4a9e8744f63)
 * suppliedItem[0].quantity.value = 1
