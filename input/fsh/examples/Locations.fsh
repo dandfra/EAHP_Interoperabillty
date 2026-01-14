@@ -54,6 +54,6 @@ Description: "An Automated Dispensing Cabinet located in the Cardiology Ward."
 * status = #active
 * name = "Cardiology Ward ADC Unit A"
 * description = "Automated Dispensing Cabinet located in Cardiology North Wing"
-* mode = #instance)
+* mode = #instance
 * form = http://terminology.hl7.org/CodeSystem/location-physical-type#ca "Cabinet"
 * partOf = Reference(loc-ward-cardio)
