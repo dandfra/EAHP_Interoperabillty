@@ -7,7 +7,18 @@ Description: "SupplyRequest profile for EAHP Interoperability SIG."
 * item.concept 0..0
 * item ^short = "Requested product must be a Medication or InventoryItem"
 * item ^definition = "The requested supply item, limited to references to Medication or InventoryItem resources."
-* identifier 1..1
+* identifier 1..*
+* identifier MS
+  * ^slicing.discriminator.type = #pattern
+  * ^slicing.discriminator.path = "type"
+  * ^slicing.rules = #open
+  * ^short = "List of identifiers , should contain at least a request header id and a line header id. The couple (request header id, line header id) must be unique."
+* identifier contains requestId 1..1 MS
+* identifier[requestId]
+  * ^short = "The ID of a complete supply request, spanning multiple medicines/inventory items."
+  * ^definition = "Normally "
+  * type = EAHPSupplyRequestIdentifierTypeCS#RequestId
+
 * priority MS
 * authoredOn MS
 * requester only Reference(Practitioner or Device)
@@ -18,3 +29,10 @@ Description: "SupplyRequest profile for EAHP Interoperability SIG."
 * deliverTo MS
 * deliverTo only Reference(Organization or Location)
 * deliverTo ^short = "The destination of the supply request. If it must be delivered to an automation, this must be a location linked with the device representing the automation."
+
+
+CodeSystem: EAHPSupplyRequestIdentifierTypeCS
+Id: eahp-supply-request-identifier-type-cs
+Title: "EAHP Identifier Types"
+Description: "Custom identifier types for pharmacy automation supply requests."
+* #RequestId "Request ID" "The ID of a complete supply request, spanning multiple medicines/inventory items."
