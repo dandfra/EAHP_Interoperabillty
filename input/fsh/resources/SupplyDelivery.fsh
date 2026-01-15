@@ -7,6 +7,7 @@ Description: "SupplyDelivery profile for EAHP Interoperability SIG."
 * basedOn MS
 * suppliedItem 1..*
 * suppliedItem.item[x] only Reference(InventoryItem)
+* suppliedItem.item[x] ^type.aggregation = #contained
 * suppliedItem.quantity MS
 * supplier MS
 * destination MS
