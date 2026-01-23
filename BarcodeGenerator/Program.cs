@@ -38,7 +38,8 @@ var writer = new BarcodeWriterGeneric
 foreach (var barcode in barcodes)
 {
     var path = Path.Combine(outputDir, barcode.GTIN);
-    Directory.CreateDirectory(path);
+    Directory.CreateDirectory(Path.Combine(path, "svg"));
+    Directory.CreateDirectory(Path.Combine(path, "png"));
 
     for (int i = 0; i < barcode.No; i++)
     {
