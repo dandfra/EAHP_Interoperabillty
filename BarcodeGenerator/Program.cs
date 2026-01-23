@@ -46,11 +46,11 @@ foreach (var barcode in barcodes)
         var matrix = writer.Encode(data);
 
         var svg = svgRenderer.Render(matrix, BarcodeFormat.DATA_MATRIX, string.Empty);
-        File.WriteAllText(Path.Combine(path, $"barcode{i}.svg"), svg.Content);
+        File.WriteAllText(Path.Combine(path, "svg", $"barcode{i}.svg"), svg.Content);
 
         var png = pixelRenderer.Render(matrix, BarcodeFormat.DATA_MATRIX, string.Empty);
         using var image = Image.LoadPixelData<Bgra32>(png.Pixels, png.Width, png.Height);
-        image.SaveAsPng(Path.Combine(path, $"barcode{i}.png"));
+        image.SaveAsPng(Path.Combine(path, "png", $"barcode{i}.png"));
     }
 }
 
